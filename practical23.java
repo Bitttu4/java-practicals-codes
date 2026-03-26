@@ -21,9 +21,8 @@ class circle{
 }
 public class practical23 {
     public static void main(String[] args) {
-        circle c1 = new circle(5.5);
-        circle c2 = new circle(7);
-        System.out.println("Circle 1:");
+        circle c1 = new circle(5.5); // Using the constructor that accepts a double value
+        circle c2 = new circle(7); // Using the constructor that accepts an integer value        System.out.println("Circle 1:");
         c1.display();
         System.out.println("\nCircle 2:");
         c2.display();
