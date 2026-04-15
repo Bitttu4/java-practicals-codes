@@ -34,7 +34,7 @@ public class practical22 {
         student1.displayDetails();
 
         // Using three-argument constructor
-        Student student2 = new Student("Aarya Patel",19,5.5);
+        Student student2 = new Student("Aarya Patel",19,8.5);
         System.out.println("\nStudent 2 Details:");
         student2.displayDetails();
     }    
